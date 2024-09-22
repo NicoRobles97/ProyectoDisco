@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Intoxicados</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="bg-black h-1/6 p-4 w-full">
+        <div class="h-1/6">
+            <img src="../img/logo-banda.png" alt="Logo Banda" class="object-contain">
+        </div>
+        <div class="texto-centro">
+            <h1 class="text-5xl font-mono font-bold underline">Intoxicados</h1>
+        </div>
+    </header>
+    <div class="main">
+        <aside class="w-64 bg-gray-800 min-h-screen p-4">
+            <h2 class="text-2xl font-bold mb-6 text-center">Menú</h2>
+            <nav class="space-y-4">
+                <a href="../index.html" class="block py-2 px-4 rounded hover:bg-gray-700">Home</a>
+                <a href="canciones.html" class="block py-2 px-4 rounded hover:bg-gray-700">Canciones</a>
+                <a href="albumes.html" class="block py-2 px-4 rounded hover:bg-gray-700">Álbumes</a>
+                <a href="tours.html" class="block py-2 px-4 rounded hover:bg-gray-700">Tours</a>
+                <a href="signin.html" class="block py-2 px-4 rounded hover:bg-gray-700">Log Out</a>
+            </nav>
+        </aside>
+
+
+
+        <main class="px-10 font-bold color-blanco">
+            <h2 class="text-bold text-center p-10 text-4xl">Agregar canciones</h2>
+            <div class="border-solid border-4 p-20">
+                <form>
+                    <fieldset>
+                        <label for="titulo">Título</label>
+                        <input class="block m-5" type="text" id="titulo" name="titulo">
+
+                        <label for="duracion">Duración</label>
+                        <input class="block m-5" type="text" id="duracion" name="duracion">
+
+                        <label for="link">Link</label>
+                        <input class="block m-5" type="text" id="duracion" name="duracion">
+
+                        <input class="border-solid border-2 p-1 m-4" type="submit" value="Agregar">
+                        <input class="border-solid border-2 p-1 m-4" type="reset" value="Restablecer">
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    </div>
+    <footer class="bg-gray-800 p-4 text-center">
+        <p class="text-sm">© 2024 Proyecto de Nicolás Robles. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

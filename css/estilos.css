@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    gap: 35%;
+    display: flex;
+    align-items: center;
+    max-height: 20vh;
+    padding: 10%;
+    font-size: 2rem;
+}
+
+header div img {
+    max-height: 130px;
+}
+
+.main {
+    display: flex;
+}
+
+main {
+    color: #888540;
+    width: 100%;
+    background-image: url(../img/fondo-main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.album {
+    font-size: 3rem;
+    color: white;
+}
+
+.color-blanco {
+    color: white;
+}
+
+.registro {
+    width: 100vw;
+    height: 100vh;
+}
+
+.formRegistro {
+    width: 40%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
