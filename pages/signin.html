@@ -13,24 +13,25 @@
     <main class="px-10 font-bold color-blanco registro place-content-center">
         <h2 class="text-bold text-center p-10 text-4xl">Registro</h2>
         <div class="border-solid border-4 p-20 formRegistro flex justify-center p-">
-            <form>
+            <form action="">
                 <fieldset>
-                    <label for="nombre">Nombre</label>
-                    <input class="block m-5" type="text" id="nombre" name="nombre">
+                    <label for="nombre" class="color-white">Nombre</label>
+                    <input class="block m-5" type="text" id="nombre" name="nombre" required>
 
                     <label for="apellido">Apellido</label>
-                    <input class="block m-5" type="text" id="apellido" name="apellido">
+                    <input class="block m-5" type="text" id="apellido" name="apellido" required>
 
                     <label for="mail">Mail</label>
-                    <input class="block m-5" type="text" id="mail" name="mail">
+                    <input class="block m-5" type="text" id="mail" name="mail" required>
 
-                    <label for="pass">Contraseña</label>
-                    <input class="block m-5" type="password" id="pass" name="pass">
+                    <label for="pass">Contraseña (8 caracteres mínimo)</label>
+                    <input class="block m-5" type="password" id="pass" name="password" required>
 
 
-                    <a href="../index.html">
-                        <input class="border-solid border-2 p-1 m-4" type="submit">
+                    <a href="../index.html" target="_blank">
+                        <input class="border-solid border-2 p-1 m-4" type="submit" onclick="alert(´https://nicorobles97.github.io/ProyectoDisco/´)">
                     </a>
+                    <!-- Quisiera que el submit me envíe a la página principal, pero no logro hacer no ejecute el evento que lo impide -->
                     <input class="border-solid border-2 p-1 m-4" type="reset">
                 </fieldset>
             </form>
